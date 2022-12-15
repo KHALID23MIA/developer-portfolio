@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 #color {
     color: hsl(132, 89%, 48%);
 }
 
-section {
+.feesible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -19,6 +23,7 @@ section {
 .half-width {
     width: 50%;
     padding-left: 5%;
+
 }
 
 .half-width img {
@@ -43,4 +48,35 @@ section {
     background-image: url(images/images\ \(1\).png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-list {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+#full {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(0, 255, 251), hwb(117 3% 51%));
+    border-image-slice: 1;
+}
+
+#baby {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(155, 82, 215), #fcf944);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
 }
